@@ -1,0 +1,23 @@
+{
+    "title": "XiXisys 开发平台文档",
+    "description": "关于 XiXisys 开放 API 的使用文档，",
+    "language" : "zh-hans",
+    "links" : {
+        "sidebar" : {
+            "XiXisys" : "https://xixisys.com"
+        }
+    },
+    "plugins": [
+        "favicon",
+        "splitter",
+        "expandable-chapters-small",
+        "toggle-chapters",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "assets/favicon.png",
+            "bookmark": "assets/favicon.png"
+        }
+    }
+}
