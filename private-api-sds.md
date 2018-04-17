@@ -4,13 +4,14 @@
 
 ```
 http请求方式: GET
-https://open.xixisys.com/api/private/sds/{cas}
+https://open.xixisys.com/api/private/sds/{cas}/{edition?}
 ```
 
 ## 示例
 
 ```php
 $guzzle = new GuzzleHttp\Client;
+// 获取中文版使用 https://open.xixisys.com/api/private/sds/50-00-0/cn
 $response = $guzzle->get('https://open.xixisys.com/api/private/sds/50-00-0');
 echo json_decode((string) $response->getBody(), true);
 ```
